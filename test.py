@@ -9,8 +9,29 @@
 
 # print(func_a(arr))
 
+# words = ["CODE", "COED", "CDEO"]
+# word = "CODE"
+
+# count = 0
+
+# for comp in words:
+#     for x, y in zip(comp, word):
+#         print(x, y)
+
+# used_tv = [0] * 25
+# print(used_tv)
+
+# for entry in enumerate(['A','B','C']):
+#     print(entry)
+
+#
+n = 4
+bundle = "cacdbdedccbb"
 
 
-arr1 = [10,20,30,40,50,60]
-for i in range(len(arr1)):
-    print(i)
+def func_a(bundle, start):
+    return bundle[start::2]
+
+a_cards = func_a(bundle, 0)[:n]
+
+print(a_cards)
