@@ -25,13 +25,17 @@
 #     print(entry)
 
 #
-n = 4
-bundle = "cacdbdedccbb"
+# n = 4
+# bundle = "cacdbdedccbb"
 
 
-def func_a(bundle, start):
-    return bundle[start::2]
+# def func_a(bundle, start):
+#     return bundle[start::2]
 
-a_cards = func_a(bundle, 0)[:n]
+# a_cards = func_a(bundle, 0)[:n]
 
-print(a_cards)
+# print(a_cards)
+
+time_table = [1, 1, 0, 0, 1, 0, 1, 0, 0, 0]
+for i, t in reversed(list(enumerate(time_table))):
+    print(i, t)
